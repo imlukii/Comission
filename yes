@@ -1,0 +1,808 @@
+-- Made by luki#0069
+
+-- Instances:
+
+local gui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Sidebar = Instance.new("Frame")
+local Sidebar_2 = Instance.new("Frame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local HomeButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local MainButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TeleportsButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local OrdersButton = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local SellingButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Pages = Instance.new("Frame")
+local HomeSection = Instance.new("Frame")
+local PlayerViewmodel = Instance.new("ImageLabel")
+local UICorner_7 = Instance.new("UICorner")
+local Username = Instance.new("TextLabel")
+local Credits1 = Instance.new("TextLabel")
+local Credits2 = Instance.new("TextLabel")
+local Version = Instance.new("TextLabel")
+local MainSection = Instance.new("Frame")
+local Scripts = Instance.new("Frame")
+local UIGridLayout_2 = Instance.new("UIGridLayout")
+local CashAura = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Template = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local TeleportsSection = Instance.new("Frame")
+local Title_2 = Instance.new("TextLabel")
+local Places = Instance.new("Frame")
+local UIGridLayout_3 = Instance.new("UIGridLayout")
+local Bank = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local BankTop = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Vault = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Admin = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local AdminCell = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Tacos = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Jail = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Grave = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Basketball = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local safezone1 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local safezone2 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local safezone3 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local OrdersFrame = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIGridLayout_4 = Instance.new("UIGridLayout")
+local OrdersTemplate = Instance.new("Frame")
+local UICorner_22 = Instance.new("UICorner")
+local Viewport = Instance.new("ImageLabel")
+local UICorner_23 = Instance.new("UICorner")
+local username = Instance.new("TextLabel")
+local PlayersCash = Instance.new("TextLabel")
+local OrdersTemplate_2 = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local Viewport_2 = Instance.new("ImageLabel")
+local UICorner_25 = Instance.new("UICorner")
+local username_2 = Instance.new("TextLabel")
+local PlayersCash_2 = Instance.new("TextLabel")
+local OrdersTemplate_3 = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
+local Viewport_3 = Instance.new("ImageLabel")
+local UICorner_27 = Instance.new("UICorner")
+local username_3 = Instance.new("TextLabel")
+local PlayersCash_3 = Instance.new("TextLabel")
+local SellingFrame = Instance.new("Frame")
+local Title_3 = Instance.new("TextLabel")
+local AutoDrop = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Cashaura = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Crash = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local Counter = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local Dropped = Instance.new("TextLabel")
+local UICorner_32 = Instance.new("UICorner")
+local CustomAmmount = Instance.new("TextBox")
+local UICorner_33 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+gui.Name = "gui"
+gui.Parent = game.CoreGui
+gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = gui
+MainFrame.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.323943675, 0, 0.268445849, 0)
+MainFrame.Size = UDim2.new(0, 399, 0, 294)
+MainFrame.Draggable = true
+MainFrame.Active = true
+
+UICorner.Parent = MainFrame
+
+Sidebar.Name = "Sidebar"
+Sidebar.Parent = MainFrame
+Sidebar.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Sidebar.Size = UDim2.new(0, 87, 0, 294)
+
+Sidebar_2.Name = "Sidebar"
+Sidebar_2.Parent = Sidebar
+Sidebar_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Sidebar_2.Position = UDim2.new(0.068965517, 0, 0.221088439, 0)
+Sidebar_2.Size = UDim2.new(0, 81, 0, 229)
+
+UIGridLayout.Parent = Sidebar_2
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellSize = UDim2.new(0, 75, 0, 40)
+
+HomeButton.Name = "HomeButton"
+HomeButton.Parent = Sidebar_2
+HomeButton.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+HomeButton.BorderSizePixel = 0
+HomeButton.Size = UDim2.new(0, 75, 0, 40)
+HomeButton.Font = Enum.Font.GothamBlack
+HomeButton.Text = "Home"
+HomeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HomeButton.TextSize = 20.000
+
+UICorner_2.Parent = HomeButton
+
+MainButton.Name = "MainButton"
+MainButton.Parent = Sidebar_2
+MainButton.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+MainButton.BorderSizePixel = 0
+MainButton.Size = UDim2.new(0, 75, 0, 40)
+MainButton.Font = Enum.Font.GothamBlack
+MainButton.Text = "Main"
+MainButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+MainButton.TextSize = 20.000
+
+UICorner_3.Parent = MainButton
+
+TeleportsButton.Name = "TeleportsButton"
+TeleportsButton.Parent = Sidebar_2
+TeleportsButton.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+TeleportsButton.BorderSizePixel = 0
+TeleportsButton.Size = UDim2.new(0, 75, 0, 40)
+TeleportsButton.Font = Enum.Font.GothamBlack
+TeleportsButton.Text = "TPs"
+TeleportsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeleportsButton.TextSize = 20.000
+
+UICorner_4.Parent = TeleportsButton
+
+OrdersButton.Name = "OrdersButton"
+OrdersButton.Parent = Sidebar_2
+OrdersButton.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+OrdersButton.BorderSizePixel = 0
+OrdersButton.Size = UDim2.new(0, 75, 0, 40)
+OrdersButton.Font = Enum.Font.GothamBlack
+OrdersButton.Text = "Orders"
+OrdersButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+OrdersButton.TextSize = 20.000
+
+UICorner_5.Parent = OrdersButton
+
+SellingButton.Name = "SellingButton"
+SellingButton.Parent = Sidebar_2
+SellingButton.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+SellingButton.BorderSizePixel = 0
+SellingButton.Size = UDim2.new(0, 75, 0, 40)
+SellingButton.Font = Enum.Font.GothamBlack
+SellingButton.Text = "Selling"
+SellingButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+SellingButton.TextSize = 20.000
+
+UICorner_6.Parent = SellingButton
+
+Pages.Name = "Pages"
+Pages.Parent = MainFrame
+Pages.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pages.BackgroundTransparency = 1.000
+Pages.BorderSizePixel = 0
+Pages.Position = UDim2.new(0.218045115, 0, 0.0170068033, 0)
+Pages.Size = UDim2.new(0, 312, 0, 289)
+
+HomeSection.Name = "HomeSection"
+HomeSection.Parent = Pages
+HomeSection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomeSection.BackgroundTransparency = 1.000
+HomeSection.BorderSizePixel = 0
+HomeSection.Position = UDim2.new(0.05448718, 0, 0.0588235296, 0)
+HomeSection.Size = UDim2.new(0, 295, 0, 272)
+HomeSection.Visible = false
+
+PlayerViewmodel.Name = "PlayerViewmodel"
+PlayerViewmodel.Parent = HomeSection
+PlayerViewmodel.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+PlayerViewmodel.Size = UDim2.new(0, 100, 0, 100)
+PlayerViewmodel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_7.CornerRadius = UDim.new(100, 100)
+UICorner_7.Parent = PlayerViewmodel
+
+Username.Name = "Username"
+Username.Parent = HomeSection
+Username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Username.BackgroundTransparency = 1.000
+Username.BorderSizePixel = 0
+Username.Position = UDim2.new(0.369491518, 0, 0.091911763, 0)
+Username.Size = UDim2.new(0, 165, 0, 50)
+Username.Font = Enum.Font.GothamBlack
+Username.Text = "HOLDER"
+Username.TextColor3 = Color3.fromRGB(255, 255, 255)
+Username.TextScaled = true
+Username.TextSize = 14.000
+Username.TextWrapped = true
+Username.TextXAlignment = Enum.TextXAlignment.Left
+
+Credits1.Name = "Credits1"
+Credits1.Parent = HomeSection
+Credits1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits1.BackgroundTransparency = 1.000
+Credits1.BorderSizePixel = 0
+Credits1.Position = UDim2.new(0, 0, 0.463235289, 0)
+Credits1.Size = UDim2.new(0, 200, 0, 27)
+Credits1.Font = Enum.Font.SourceSans
+Credits1.Text = "- GUI made by:  luki#0069"
+Credits1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits1.TextSize = 20.000
+Credits1.TextXAlignment = Enum.TextXAlignment.Left
+
+Credits2.Name = "Credits2"
+Credits2.Parent = HomeSection
+Credits2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits2.BackgroundTransparency = 1.000
+Credits2.BorderSizePixel = 0
+Credits2.Position = UDim2.new(0, 0, 0.555147052, 0)
+Credits2.Size = UDim2.new(0, 200, 0, 27)
+Credits2.Font = Enum.Font.SourceSans
+Credits2.Text = "- GUI Bought by: [Justin]#0001"
+Credits2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits2.TextSize = 20.000
+Credits2.TextXAlignment = Enum.TextXAlignment.Left
+
+Version.Name = "Version"
+Version.Parent = HomeSection
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1.000
+Version.BorderSizePixel = 0
+Version.Position = UDim2.new(0.78644067, 0, 0.841911793, 0)
+Version.Size = UDim2.new(0, 42, 0, 27)
+Version.Font = Enum.Font.SourceSans
+Version.Text = "v0.0.1"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextSize = 20.000
+Version.TextXAlignment = Enum.TextXAlignment.Right
+
+MainSection.Name = "MainSection"
+MainSection.Parent = Pages
+MainSection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainSection.BackgroundTransparency = 1.000
+MainSection.BorderSizePixel = 0
+MainSection.Position = UDim2.new(0.05448718, 0, 0.207612455, 0)
+MainSection.Size = UDim2.new(0, 295, 0, 229)
+MainSection.Visible = false
+
+Scripts.Name = "Scripts"
+Scripts.Parent = MainSection
+Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.BackgroundTransparency = 1.000
+Scripts.BorderSizePixel = 0
+Scripts.Position = UDim2.new(0.0133220088, 0, 0, 0)
+Scripts.Size = UDim2.new(0, 269, 0, 219)
+
+UIGridLayout_2.Parent = Scripts
+UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_2.CellSize = UDim2.new(0, 85, 0, 50)
+
+CashAura.Name = "CashAura"
+CashAura.Parent = Scripts
+CashAura.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+CashAura.Size = UDim2.new(0, 200, 0, 50)
+CashAura.Font = Enum.Font.GothamBold
+CashAura.Text = "CashAura"
+CashAura.TextColor3 = Color3.fromRGB(255, 255, 255)
+CashAura.TextSize = 14.000
+
+UICorner_8.Parent = CashAura
+
+Template.Name = "Template"
+Template.Parent = Scripts
+Template.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Template.Size = UDim2.new(0, 200, 0, 50)
+Template.Font = Enum.Font.GothamBold
+Template.Text = "Text"
+Template.TextColor3 = Color3.fromRGB(255, 255, 255)
+Template.TextSize = 14.000
+
+UICorner_9.Parent = Template
+
+Title.Name = "Title"
+Title.Parent = MainSection
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.122033902, 0, -0.248908281, 0)
+Title.Size = UDim2.new(0, 200, 0, 50)
+Title.Font = Enum.Font.GothamBlack
+Title.Text = "Main Scripts"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 30.000
+
+TeleportsSection.Name = "TeleportsSection"
+TeleportsSection.Parent = Pages
+TeleportsSection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TeleportsSection.BackgroundTransparency = 1.000
+TeleportsSection.BorderSizePixel = 0
+TeleportsSection.Position = UDim2.new(0.05448718, 0, 0.0588235296, 0)
+TeleportsSection.Size = UDim2.new(0, 295, 0, 272)
+TeleportsSection.Visible = false
+
+Title_2.Name = "Title"
+Title_2.Parent = TeleportsSection
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.Position = UDim2.new(0.122033902, 0, -0.0503788665, 0)
+Title_2.Size = UDim2.new(0, 200, 0, 50)
+Title_2.Font = Enum.Font.GothamBlack
+Title_2.Text = "Teleports"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextSize = 30.000
+
+Places.Name = "Places"
+Places.Parent = TeleportsSection
+Places.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Places.BackgroundTransparency = 1.000
+Places.BorderSizePixel = 0
+Places.Position = UDim2.new(0.0133220088, 0, 0.158088237, 0)
+Places.Size = UDim2.new(0, 269, 0, 229)
+
+UIGridLayout_3.Parent = Places
+UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_3.CellSize = UDim2.new(0, 85, 0, 50)
+
+Bank.Name = "Bank"
+Bank.Parent = Places
+Bank.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Bank.Size = UDim2.new(0, 200, 0, 50)
+Bank.Font = Enum.Font.GothamBold
+Bank.Text = "Bank"
+Bank.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bank.TextSize = 14.000
+
+UICorner_10.Parent = Bank
+
+BankTop.Name = "BankTop"
+BankTop.Parent = Places
+BankTop.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+BankTop.Size = UDim2.new(0, 200, 0, 50)
+BankTop.Font = Enum.Font.GothamBold
+BankTop.Text = "Bank Top"
+BankTop.TextColor3 = Color3.fromRGB(255, 255, 255)
+BankTop.TextSize = 14.000
+
+UICorner_11.Parent = BankTop
+
+Vault.Name = "Vault"
+Vault.Parent = Places
+Vault.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Vault.Size = UDim2.new(0, 200, 0, 50)
+Vault.Font = Enum.Font.GothamBold
+Vault.Text = "Vault"
+Vault.TextColor3 = Color3.fromRGB(255, 255, 255)
+Vault.TextSize = 14.000
+
+UICorner_12.Parent = Vault
+
+Admin.Name = "Admin"
+Admin.Parent = Places
+Admin.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Admin.Size = UDim2.new(0, 200, 0, 50)
+Admin.Font = Enum.Font.GothamBold
+Admin.Text = "Admin"
+Admin.TextColor3 = Color3.fromRGB(255, 255, 255)
+Admin.TextSize = 14.000
+
+UICorner_13.Parent = Admin
+
+AdminCell.Name = "AdminCell"
+AdminCell.Parent = Places
+AdminCell.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+AdminCell.Size = UDim2.new(0, 200, 0, 50)
+AdminCell.Font = Enum.Font.GothamBold
+AdminCell.Text = "Admin Cell"
+AdminCell.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdminCell.TextSize = 14.000
+
+UICorner_14.Parent = AdminCell
+
+Tacos.Name = "Tacos"
+Tacos.Parent = Places
+Tacos.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Tacos.Size = UDim2.new(0, 200, 0, 50)
+Tacos.Font = Enum.Font.GothamBold
+Tacos.Text = "Tacos"
+Tacos.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tacos.TextSize = 14.000
+
+UICorner_15.Parent = Tacos
+
+Jail.Name = "Jail"
+Jail.Parent = Places
+Jail.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Jail.Size = UDim2.new(0, 200, 0, 50)
+Jail.Font = Enum.Font.GothamBold
+Jail.Text = "Jail"
+Jail.TextColor3 = Color3.fromRGB(255, 255, 255)
+Jail.TextSize = 14.000
+
+UICorner_16.Parent = Jail
+
+Grave.Name = "Grave"
+Grave.Parent = Places
+Grave.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Grave.Size = UDim2.new(0, 200, 0, 50)
+Grave.Font = Enum.Font.GothamBold
+Grave.Text = "Grave"
+Grave.TextColor3 = Color3.fromRGB(255, 255, 255)
+Grave.TextSize = 14.000
+
+UICorner_17.Parent = Grave
+
+Basketball.Name = "Basketball"
+Basketball.Parent = Places
+Basketball.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Basketball.Size = UDim2.new(0, 200, 0, 50)
+Basketball.Font = Enum.Font.GothamBold
+Basketball.Text = "B. Court"
+Basketball.TextColor3 = Color3.fromRGB(255, 255, 255)
+Basketball.TextSize = 14.000
+
+UICorner_18.Parent = Basketball
+
+safezone1.Name = "safezone1"
+safezone1.Parent = Places
+safezone1.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+safezone1.Size = UDim2.new(0, 200, 0, 50)
+safezone1.Font = Enum.Font.GothamBold
+safezone1.Text = "Safezone 1"
+safezone1.TextColor3 = Color3.fromRGB(255, 255, 255)
+safezone1.TextSize = 14.000
+
+UICorner_19.Parent = safezone1
+
+safezone2.Name = "safezone2"
+safezone2.Parent = Places
+safezone2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+safezone2.Size = UDim2.new(0, 200, 0, 50)
+safezone2.Font = Enum.Font.GothamBold
+safezone2.Text = "Safezone 2"
+safezone2.TextColor3 = Color3.fromRGB(255, 255, 255)
+safezone2.TextSize = 14.000
+
+UICorner_20.Parent = safezone2
+
+safezone3.Name = "safezone3"
+safezone3.Parent = Places
+safezone3.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+safezone3.Size = UDim2.new(0, 200, 0, 50)
+safezone3.Font = Enum.Font.GothamBold
+safezone3.Text = "Safezone 3"
+safezone3.TextColor3 = Color3.fromRGB(255, 255, 255)
+safezone3.TextSize = 14.000
+
+UICorner_21.Parent = safezone3
+
+OrdersFrame.Name = "OrdersFrame"
+OrdersFrame.Parent = Pages
+OrdersFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OrdersFrame.BackgroundTransparency = 1.000
+OrdersFrame.BorderSizePixel = 0
+OrdersFrame.Position = UDim2.new(0.05448718, 0, 0.0588235296, 0)
+OrdersFrame.Size = UDim2.new(0, 295, 0, 272)
+OrdersFrame.Visible = false
+
+ScrollingFrame.Parent = OrdersFrame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.Position = UDim2.new(0.0133220088, 0, 0.0441176482, 0)
+ScrollingFrame.Size = UDim2.new(0, 291, 0, 260)
+
+UIGridLayout_4.Parent = ScrollingFrame
+UIGridLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_4.CellSize = UDim2.new(0, 250, 0, 90)
+
+OrdersTemplate.Name = "OrdersTemplate"
+OrdersTemplate.Parent = ScrollingFrame
+OrdersTemplate.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+OrdersTemplate.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OrdersTemplate.BorderSizePixel = 0
+OrdersTemplate.Size = UDim2.new(0, 100, 0, 100)
+
+UICorner_22.Parent = OrdersTemplate
+
+Viewport.Name = "Viewport"
+Viewport.Parent = OrdersTemplate
+Viewport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Viewport.Position = UDim2.new(0.0320000015, 0, 0.100000001, 0)
+Viewport.Size = UDim2.new(0, 73, 0, 71)
+Viewport.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_23.CornerRadius = UDim.new(100, 100)
+UICorner_23.Parent = Viewport
+
+username.Name = "username"
+username.Parent = OrdersTemplate
+username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+username.BackgroundTransparency = 1.000
+username.BorderSizePixel = 0
+username.Position = UDim2.new(0.351999998, 0, 0.100000001, 0)
+username.Size = UDim2.new(0, 145, 0, 22)
+username.Font = Enum.Font.GothamBold
+username.Text = "USERNAME"
+username.TextColor3 = Color3.fromRGB(255, 255, 255)
+username.TextScaled = true
+username.TextSize = 14.000
+username.TextWrapped = true
+
+PlayersCash.Name = "PlayersCash"
+PlayersCash.Parent = OrdersTemplate
+PlayersCash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayersCash.BackgroundTransparency = 1.000
+PlayersCash.BorderSizePixel = 0
+PlayersCash.Position = UDim2.new(0.351999998, 0, 0.444444448, 0)
+PlayersCash.Size = UDim2.new(0, 145, 0, 22)
+PlayersCash.Font = Enum.Font.GothamBold
+PlayersCash.Text = "Cash: "
+PlayersCash.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayersCash.TextScaled = true
+PlayersCash.TextSize = 14.000
+PlayersCash.TextWrapped = true
+PlayersCash.TextXAlignment = Enum.TextXAlignment.Left
+
+OrdersTemplate_2.Name = "OrdersTemplate"
+OrdersTemplate_2.Parent = ScrollingFrame
+OrdersTemplate_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+OrdersTemplate_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OrdersTemplate_2.BorderSizePixel = 0
+OrdersTemplate_2.Size = UDim2.new(0, 100, 0, 100)
+
+UICorner_24.Parent = OrdersTemplate_2
+
+Viewport_2.Name = "Viewport"
+Viewport_2.Parent = OrdersTemplate_2
+Viewport_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Viewport_2.Position = UDim2.new(0.0320000015, 0, 0.100000001, 0)
+Viewport_2.Size = UDim2.new(0, 73, 0, 71)
+Viewport_2.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_25.CornerRadius = UDim.new(100, 100)
+UICorner_25.Parent = Viewport_2
+
+username_2.Name = "username"
+username_2.Parent = OrdersTemplate_2
+username_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+username_2.BackgroundTransparency = 1.000
+username_2.BorderSizePixel = 0
+username_2.Position = UDim2.new(0.351999998, 0, 0.100000001, 0)
+username_2.Size = UDim2.new(0, 145, 0, 22)
+username_2.Font = Enum.Font.GothamBold
+username_2.Text = "USERNAME"
+username_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+username_2.TextScaled = true
+username_2.TextSize = 14.000
+username_2.TextWrapped = true
+
+PlayersCash_2.Name = "PlayersCash"
+PlayersCash_2.Parent = OrdersTemplate_2
+PlayersCash_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayersCash_2.BackgroundTransparency = 1.000
+PlayersCash_2.BorderSizePixel = 0
+PlayersCash_2.Position = UDim2.new(0.351999998, 0, 0.444444448, 0)
+PlayersCash_2.Size = UDim2.new(0, 145, 0, 22)
+PlayersCash_2.Font = Enum.Font.GothamBold
+PlayersCash_2.Text = "Cash: "
+PlayersCash_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayersCash_2.TextScaled = true
+PlayersCash_2.TextSize = 14.000
+PlayersCash_2.TextWrapped = true
+PlayersCash_2.TextXAlignment = Enum.TextXAlignment.Left
+
+OrdersTemplate_3.Name = "OrdersTemplate"
+OrdersTemplate_3.Parent = ScrollingFrame
+OrdersTemplate_3.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+OrdersTemplate_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OrdersTemplate_3.BorderSizePixel = 0
+OrdersTemplate_3.Size = UDim2.new(0, 100, 0, 100)
+
+UICorner_26.Parent = OrdersTemplate_3
+
+Viewport_3.Name = "Viewport"
+Viewport_3.Parent = OrdersTemplate_3
+Viewport_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Viewport_3.Position = UDim2.new(0.0320000015, 0, 0.100000001, 0)
+Viewport_3.Size = UDim2.new(0, 73, 0, 71)
+Viewport_3.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_27.CornerRadius = UDim.new(100, 100)
+UICorner_27.Parent = Viewport_3
+
+username_3.Name = "username"
+username_3.Parent = OrdersTemplate_3
+username_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+username_3.BackgroundTransparency = 1.000
+username_3.BorderSizePixel = 0
+username_3.Position = UDim2.new(0.351999998, 0, 0.100000001, 0)
+username_3.Size = UDim2.new(0, 145, 0, 22)
+username_3.Font = Enum.Font.GothamBold
+username_3.Text = "USERNAME"
+username_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+username_3.TextScaled = true
+username_3.TextSize = 14.000
+username_3.TextWrapped = true
+
+PlayersCash_3.Name = "PlayersCash"
+PlayersCash_3.Parent = OrdersTemplate_3
+PlayersCash_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayersCash_3.BackgroundTransparency = 1.000
+PlayersCash_3.BorderSizePixel = 0
+PlayersCash_3.Position = UDim2.new(0.351999998, 0, 0.444444448, 0)
+PlayersCash_3.Size = UDim2.new(0, 145, 0, 22)
+PlayersCash_3.Font = Enum.Font.GothamBold
+PlayersCash_3.Text = "Cash: "
+PlayersCash_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayersCash_3.TextScaled = true
+PlayersCash_3.TextSize = 14.000
+PlayersCash_3.TextWrapped = true
+PlayersCash_3.TextXAlignment = Enum.TextXAlignment.Left
+
+SellingFrame.Name = "SellingFrame"
+SellingFrame.Parent = Pages
+SellingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SellingFrame.BackgroundTransparency = 1.000
+SellingFrame.BorderSizePixel = 0
+SellingFrame.Position = UDim2.new(0.05448718, 0, 0.0588235296, 0)
+SellingFrame.Size = UDim2.new(0, 295, 0, 272)
+
+Title_3.Name = "Title"
+Title_3.Parent = SellingFrame
+Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.BackgroundTransparency = 1.000
+Title_3.Position = UDim2.new(0.125423729, 0, -0.083467111, 0)
+Title_3.Size = UDim2.new(0, 200, 0, 50)
+Title_3.Font = Enum.Font.GothamBlack
+Title_3.Text = "Selling Tools"
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextSize = 30.000
+
+AutoDrop.Name = "AutoDrop"
+AutoDrop.Parent = SellingFrame
+AutoDrop.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+AutoDrop.Position = UDim2.new(0.111864403, 0, 0.191176474, 0)
+AutoDrop.Size = UDim2.new(0, 100, 0, 32)
+AutoDrop.Font = Enum.Font.GothamBlack
+AutoDrop.Text = "Autodrop"
+AutoDrop.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutoDrop.TextSize = 14.000
+
+UICorner_28.Parent = AutoDrop
+
+Cashaura.Name = "Cashaura"
+Cashaura.Parent = SellingFrame
+Cashaura.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Cashaura.Position = UDim2.new(0.481355935, 0, 0.191176474, 0)
+Cashaura.Size = UDim2.new(0, 100, 0, 32)
+Cashaura.Font = Enum.Font.GothamBlack
+Cashaura.Text = "CashAura"
+Cashaura.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cashaura.TextSize = 14.000
+
+UICorner_29.Parent = Cashaura
+
+Crash.Name = "Crash"
+Crash.Parent = SellingFrame
+Crash.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Crash.Position = UDim2.new(0.4779661, 0, 0.35661763, 0)
+Crash.Size = UDim2.new(0, 100, 0, 32)
+Crash.Font = Enum.Font.GothamBlack
+Crash.Text = "Drop custom"
+Crash.TextColor3 = Color3.fromRGB(255, 255, 255)
+Crash.TextSize = 14.000
+
+UICorner_30.Parent = Crash
+
+Counter.Name = "Counter"
+Counter.Parent = SellingFrame
+Counter.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Counter.Position = UDim2.new(0.108474575, 0, 0.35661763, 0)
+Counter.Size = UDim2.new(0, 100, 0, 32)
+Counter.Font = Enum.Font.GothamBlack
+Counter.Text = "MoneyCounter"
+Counter.TextColor3 = Color3.fromRGB(255, 255, 255)
+Counter.TextSize = 14.000
+
+UICorner_31.Parent = Counter
+
+Dropped.Name = "Dropped"
+Dropped.Parent = SellingFrame
+Dropped.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Dropped.Position = UDim2.new(-0.0135593219, 0, 0.852941155, 0)
+Dropped.Size = UDim2.new(0, 284, 0, 31)
+Dropped.Font = Enum.Font.GothamBold
+Dropped.Text = "Dropped: "
+Dropped.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dropped.TextScaled = true
+Dropped.TextSize = 14.000
+Dropped.TextWrapped = true
+
+UICorner_32.Parent = Dropped
+
+CustomAmmount.Name = "CustomAmmount"
+CustomAmmount.Parent = SellingFrame
+CustomAmmount.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+CustomAmmount.Position = UDim2.new(0.125423729, 0, 0.672794104, 0)
+CustomAmmount.Size = UDim2.new(0, 200, 0, 40)
+CustomAmmount.Font = Enum.Font.GothamBlack
+CustomAmmount.Text = "Enter the ammount..."
+CustomAmmount.TextColor3 = Color3.fromRGB(255, 255, 255)
+CustomAmmount.TextSize = 14.000
+
+UICorner_33.Parent = CustomAmmount
+
+TextLabel.Parent = SellingFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.125423729, 0, 0.514705896, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 38)
+TextLabel.Font = Enum.Font.GothamBlack
+TextLabel.Text = "Drop:"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 25.000
+
+-- Scripts:
+
+local function XINA_fake_script() -- PlayerViewmodel.LocalScript 
+	local script = Instance.new('LocalScript', PlayerViewmodel)
+
+	local player = game.Players.LocalPlayer
+	local image = script.Parent
+	
+	while wait(1) do
+		image.Image = game.Players:GetUserThumbnailAsync(player.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size352x352)
+	end
+end
+coroutine.wrap(XINA_fake_script)()
+local function ACSNAS_fake_script() -- Username.changer 
+	local script = Instance.new('LocalScript', Username)
+
+	local player = game.Players.LocalPlayer
+	local text = script.Parent
+	
+	while wait(1) do
+		text.Text = player.Name
+	end
+end
+coroutine.wrap(ACSNAS_fake_script)()
+local function KEQNLL_fake_script() -- CashAura.LocalScript 
+	local script = Instance.new('LocalScript', CashAura)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local localPlayer = game:GetService("Players").LocalPlayer
+		local function booga()
+			local closestPlayer = nil
+			local shortestDistance = math.huge
+			for i, v in pairs(game:GetService("Workspace").Ignored.Drop:GetChildren()) do
+				if v:FindFirstChild("ClickDetector") then
+					local magnitude = (v.Position - localPlayer.Character.Head.Position).magnitude
+					if magnitude < shortestDistance then
+						closestPlayer = v
+						shortestDistance = magnitude
+					end
+				end
+			end
+			return closestPlayer
+		end
+		game:GetService"RunService".RenderStepped:Connect(function()
+			fireclickdetector(booga():FindFirstChild("ClickDetector"))
+		end)
+	end)
+end
+coroutine.wrap(KEQNLL_fake_script)()
