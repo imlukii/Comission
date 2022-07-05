@@ -206,7 +206,7 @@ HomeSection.BackgroundTransparency = 1.000
 HomeSection.BorderSizePixel = 0
 HomeSection.Position = UDim2.new(0.05448718, 0, 0.0588235296, 0)
 HomeSection.Size = UDim2.new(0, 295, 0, 272)
-HomeSection.Visible = false
+HomeSection.Visible = true
 
 PlayerViewmodel.Name = "PlayerViewmodel"
 PlayerViewmodel.Parent = HomeSection
