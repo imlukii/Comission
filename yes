@@ -660,6 +660,7 @@ SellingFrame.BackgroundTransparency = 1.000
 SellingFrame.BorderSizePixel = 0
 SellingFrame.Position = UDim2.new(0.05448718, 0, 0.0588235296, 0)
 SellingFrame.Size = UDim2.new(0, 295, 0, 272)
+SellingFrame.Visible = false
 
 Title_3.Name = "Title"
 Title_3.Parent = SellingFrame
